@@ -69,7 +69,7 @@ class LinkedList:
         else:
              return None
         while node is not None:
-            if node.value is value:
+            if node.value == value:
                 return node
             node = node.next
         return None
@@ -93,7 +93,7 @@ class LinkedList:
              return None
         index = 0
         while node is not None:
-            if node.value is value:
+            if node.value == value:
                 return index
             node = node.next
             index += 1
