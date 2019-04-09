@@ -1,0 +1,30 @@
+{
+  "name": "js_data_structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indy728/JS_Data_Structures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indy728/JS_Data_Structures/issues"
+  },
+  "homepage": "https://github.com/indy728/JS_Data_Structures#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "npm": "^6.9.0",
+    "readline": "^1.3.0",
+    "simple-terminal-menu": "^1.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
+}
